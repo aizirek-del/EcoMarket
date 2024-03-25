@@ -1,4 +1,4 @@
-package com.example.ecomarket.model
+package com.example.ecomarket.domain.model
 
 import java.util.*
 

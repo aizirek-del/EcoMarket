@@ -1,4 +1,4 @@
-package com.example.ecomarket.model
+package com.example.ecomarket.domain.model
 
 data class Category(
     val id: Int, val name: String, val image: String

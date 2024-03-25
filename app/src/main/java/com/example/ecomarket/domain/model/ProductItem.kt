@@ -1,7 +1,6 @@
-package com.example.ecomarket.model
+package com.example.ecomarket.domain.model
 
-import com.example.ecomarket.api.model.CategoryResponse
-import com.google.gson.annotations.SerializedName
+import com.example.ecomarket.data.dto.CategoryResponse
 
 data class ProductItem(
     val id: Int,

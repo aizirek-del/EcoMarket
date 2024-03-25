@@ -1,4 +1,4 @@
-package com.example.ecomarket.api.model
+package com.example.ecomarket.data.dto
 
 import com.google.gson.annotations.SerializedName
 

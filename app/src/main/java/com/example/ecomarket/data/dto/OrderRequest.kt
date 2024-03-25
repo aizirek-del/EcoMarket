@@ -1,6 +1,6 @@
-package com.example.ecomarket.api
+package com.example.ecomarket.data.dto
 
-import com.example.ecomarket.api.model.Order
+import com.example.ecomarket.domain.model.Order
 import com.google.gson.annotations.SerializedName
 
 data class OrderRequest(

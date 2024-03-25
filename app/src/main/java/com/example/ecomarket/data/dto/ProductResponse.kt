@@ -1,5 +1,6 @@
-package com.example.ecomarket.api.model
+package com.example.ecomarket.data.dto
 
+import com.example.ecomarket.data.dto.CategoryResponse
 import com.google.gson.annotations.SerializedName
 
 data class ProductResponse(

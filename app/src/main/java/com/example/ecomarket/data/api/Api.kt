@@ -1,12 +1,13 @@
-package com.example.ecomarket.api
+package com.example.ecomarket.data.api
 
-import com.example.ecomarket.api.model.CategoryResponse
-import com.example.ecomarket.api.model.OrderResponse
-import com.example.ecomarket.api.model.ProductResponse
-import retrofit.http.Body
-import retrofit.http.GET
-import retrofit.http.POST
-import retrofit.http.Query
+import com.example.ecomarket.data.dto.CategoryResponse
+import com.example.ecomarket.data.dto.OrderRequest
+import com.example.ecomarket.data.dto.ProductResponse
+import com.example.ecomarket.domain.model.OrderResponse
+import retrofit2.http.Body
+import retrofit2.http.GET
+import retrofit2.http.POST
+import retrofit2.http.Query
 
 interface Api {
 
