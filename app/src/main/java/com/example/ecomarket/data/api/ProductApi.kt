@@ -9,10 +9,10 @@ import retrofit2.http.GET
 import retrofit2.http.POST
 import retrofit2.http.Query
 
-interface Api {
+interface ProductApi {
 
     @GET("product-category-list")
-    fun getProductsCategory(): List<CategoryResponse>
+   suspend fun getProductsCategory(): CategoryResponse
 
     @GET("product-list")
     fun getProductsList(

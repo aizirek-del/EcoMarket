@@ -5,7 +5,7 @@ import com.example.ecomarket.domain.model.ProductItem
 
 interface ProductRepository {
 
-    fun getProductCategory(): List<Category>
+//    fun getProductCategory(): List<Category>
 
     fun getProductList(): List<ProductItem>
 }
